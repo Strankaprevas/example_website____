@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sitio Café: A Neighbourhood Coffee House</title>
+<meta name="description" content="Sitio Café is a neighbourhood cafe serving artisan coffee, all-day brunch, and homemade bakes with a whole lot of heart." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,450&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ ANNOUNCEMENT BAR ============ -->
+<div class="announce">
+  <p>This is an example cafe website template. Every name, address and detail below is a placeholder</p>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="6" width="48" height="48" rx="10" fill="currentColor"/>
+          <text x="30" y="41" font-family="Fraunces, Georgia, serif" font-size="30" font-weight="600" fill="#F6F1E7" text-anchor="middle">S</text>
+        </svg>
+      </span>
+      <span class="logo-text">Sitio Café</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#story">Our Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#visit">Visit</a>
+      <a href="#values">Community</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#visit" class="btn btn-outline header-cta">Order Ahead</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">A neighbourhood cafe, est. placeholder</p>
+        <h1>Welcome to<br><span>Sitio Café</span></h1>
+        <p class="hero-lede">Slow mornings, honest coffee and food made from scratch. We're a small corner cafe built around one idea: everyone who walks in should leave a little happier.</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">See the Menu</a>
+          <a href="#visit" class="btn btn-ghost">Find Us</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="images/dining-room.webp" alt="Warmly lit dining room with wooden tables and hanging bulb pendants" class="hero-photo" width="600" height="400" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OUR STORY ============ -->
+  <section class="story" id="story">
+    <div class="story-inner">
+      <div class="story-art">
+        <img src="images/counter-detail.webp" alt="Cafe counter with espresso machine, pastries and dried flowers" class="story-photo" width="500" height="500" />
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">Our Happy Place</p>
+        <h2>Made by hand, from scratch, every single day</h2>
+        <p>Sitio Café started with a simple idea: bring people together over really good coffee and food that actually tastes homemade, because it is. Everything on our counter is made in-house each morning, from our slow-roasted granola to the bread under your sandwich.</p>
+        <p>We're a small team who genuinely love what we do, and it shows in the little details: the perfectly pulled shot, the extra minute to say good morning, the table that's always kept for the regulars.</p>
+        <a href="#story" class="text-link">Read our full story →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VISIT / ORDER CARDS ============ -->
+  <section class="collect" id="visit">
+    <div class="section-head">
+      <p class="eyebrow">How to Cafe</p>
+      <h2>Stay a while, or take it with you</h2>
+    </div>
+    <div class="collect-grid">
+      <article class="collect-card">
+        <div class="collect-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M10 18h28v14a14 14 0 0 1-14 14v0a14 14 0 0 1-14-14V18Z" stroke="currentColor" stroke-width="2.5" fill="none"/><path d="M38 21h3a5 5 0 0 1 0 10h-2" stroke="currentColor" stroke-width="2.5" fill="none"/></svg>
+        </div>
+        <h3>Dine In</h3>
+        <p>Pull up a chair inside or grab a table on the pavement. No bookings needed, we always keep room for walk-ins.</p>
+        <a href="#menu" class="text-link">View the menu →</a>
+      </article>
+      <article class="collect-card">
+        <div class="collect-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><rect x="8" y="16" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2.5" fill="none"/><path d="M8 24h32M17 16v-3a7 7 0 0 1 14 0v3" stroke="currentColor" stroke-width="2.5" fill="none"/></svg>
+        </div>
+        <h3>Click &amp; Collect</h3>
+        <p>Order ahead and skip the queue. Your coffee, cake or lunch will be ready and waiting at the counter.</p>
+        <a href="#" class="text-link">Order ahead →</a>
+      </article>
+      <article class="collect-card">
+        <div class="collect-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 6c9 8 15 14.5 15 22a15 15 0 0 1-30 0c0-7.5 6-14 15-22Z" stroke="currentColor" stroke-width="2.5" fill="none"/></svg>
+        </div>
+        <h3>Gift Vouchers</h3>
+        <p>Can't decide what to get someone? A voucher for good coffee and a warm seat is never the wrong answer.</p>
+        <a href="gift-vouchers.html" class="text-link">Buy a voucher →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ MENU HIGHLIGHTS ============ -->
+  <section class="menu" id="menu">
+    <div class="section-head">
+      <p class="eyebrow light">On the Menu</p>
+      <h2 class="light">A few of our favourites</h2>
+      <p class="section-sub light">Full menu available in-cafe and online, this is just a taste.</p>
+    </div>
+    <div class="menu-grid">
+      <div class="menu-card">
+        <div class="menu-card-media coffee" aria-hidden="true"></div>
+        <span class="menu-tag">Coffee</span>
+        <h3>House Espresso</h3>
+        <p>Rich, balanced and roasted for us, pulled as a flat white, cortado or straight up.</p>
+        <span class="menu-price">£3.60</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-card-media eggs" aria-hidden="true"></div>
+        <span class="menu-tag">Brunch</span>
+        <h3>Soft Boiled Eggs &amp; Soldiers</h3>
+        <p>Two eggs, buttered toast fingers, and a little flaky salt on the side.</p>
+        <span class="menu-price">£6.90</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-card-media toastie" aria-hidden="true"></div>
+        <span class="menu-tag">Lunch</span>
+        <h3>Roast Vegetable Toastie</h3>
+        <p>Griddled sourdough, melted cheese and slow-roasted seasonal vegetables.</p>
+        <span class="menu-price">£7.50</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-card-media cake" aria-hidden="true"></div>
+        <span class="menu-tag">Bakes</span>
+        <h3>Banana Chocolate Chip Loaf</h3>
+        <p>A moist, generous slice, baked fresh each morning on site.</p>
+        <span class="menu-price">£4.20</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-card-media juice" aria-hidden="true"></div>
+        <span class="menu-tag">Drinks</span>
+        <h3>Fresh Orange Juice</h3>
+        <p>Squeezed to order, nothing added, just oranges.</p>
+        <span class="menu-price">£3.80</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-card-media granola" aria-hidden="true"></div>
+        <span class="menu-tag">Brunch</span>
+        <h3>Homemade Granola &amp; Yoghurt</h3>
+        <p>Slow-roasted oats, seeds and honey, layered with thick yoghurt.</p>
+        <span class="menu-price">£6.20</span>
+      </div>
+    </div>
+    <div class="menu-cta">
+      <a href="menu.html" class="btn btn-primary-inverse">View Full Menu</a>
+    </div>
+  </section>
+
+  <!-- ============ VALUES / FEATURES ============ -->
+  <section class="values" id="values">
+    <div class="section-head">
+      <p class="eyebrow">About Us</p>
+      <h2>A few extras that make us, us</h2>
+    </div>
+    <div class="values-grid">
+      <div class="value-item">
+        <div class="value-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 40c-9-6-16-12-16-20a9 9 0 0 1 16-6 9 9 0 0 1 16 6c0 8-7 14-16 20Z" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Dog Friendly</h3>
+        <p>Well-behaved dogs are always welcome inside, water bowl and treats included.</p>
+      </div>
+      <div class="value-item">
+        <div class="value-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 6c-8 8-14 16-14 24a14 14 0 0 0 28 0c0-8-6-16-14-24Z" stroke="currentColor" stroke-width="2.5" fill="none"/><path d="M24 44V22" stroke="currentColor" stroke-width="2.5"/></svg>
+        </div>
+        <h3>Locally Sourced</h3>
+        <p>We buy from small farms and producers nearby wherever we possibly can.</p>
+      </div>
+      <div class="value-item">
+        <div class="value-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><rect x="10" y="18" width="28" height="20" rx="2" stroke="currentColor" stroke-width="2.5" fill="none"/><path d="M16 18v-4a8 8 0 0 1 16 0v4" stroke="currentColor" stroke-width="2.5" fill="none"/><circle cx="24" cy="28" r="3" fill="currentColor"/></svg>
+        </div>
+        <h3>Loyalty Rewards</h3>
+        <p>Collect a stamp with every visit, your tenth coffee is always on us.</p>
+      </div>
+      <div class="value-item">
+        <div class="value-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 4 6 14v10c0 12 8 18 18 20 10-2 18-8 18-20V14L24 4Z" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linejoin="round"/><path d="M17 24l5 5 9-11" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Plastic Free</h3>
+        <p>All our packaging is paper, wood or fully compostable, no exceptions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY / INTERIOR ============ -->
+  <section class="gallery" id="gallery">
+    <div class="gallery-inner">
+      <img src="images/evening-seating.webp" alt="Moody evening seating area with leather banquettes and framed art" class="gallery-photo" width="1200" height="600" />
+      <div class="gallery-caption">
+        <p class="eyebrow">Step Inside</p>
+        <h2>A room built for lingering</h2>
+        <p>Mornings are bright and easy; evenings turn low-lit and a little more grown-up. Same cafe, two different moods.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="reviews" id="reviews">
+    <div class="section-head">
+      <p class="eyebrow">Kind Words</p>
+      <h2>What people are saying</h2>
+    </div>
+    <div class="reviews-grid">
+      <figure class="review-card">
+        <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+        <blockquote>Found this place by accident and now it's part of my weekly routine. Everything is fresh, the staff remember your order, and the coffee is genuinely some of the best around.</blockquote>
+        <figcaption>Placeholder Reviewer, Google</figcaption>
+      </figure>
+      <figure class="review-card">
+        <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+        <blockquote>We popped in for a late lunch and stayed for two hours. Simple food, done really well, in a room that makes you want to slow down. Highly recommend.</blockquote>
+        <figcaption>Placeholder Reviewer, Local Guide</figcaption>
+      </figure>
+      <figure class="review-card">
+        <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+        <blockquote>My favourite cafe in the neighbourhood. It gets busy on weekends but it's never a long wait, and it's always worth it. A real community spot.</blockquote>
+        <figcaption>Placeholder Reviewer, Regular</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ NEWSLETTER ============ -->
+  <section class="newsletter">
+    <div class="newsletter-inner">
+      <div class="newsletter-copy">
+        <p class="eyebrow">Stay in Touch</p>
+        <h2>Join the community</h2>
+        <p>Get the odd note about seasonal menu changes, events and specials, no spam, just the good stuff.</p>
+      </div>
+      <form class="newsletter-form" id="newsletter-form">
+        <label for="newsletter-email" class="sr-only">Email address</label>
+        <input type="email" id="newsletter-email" name="email" placeholder="you@example.com" required />
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+      </form>
+      <p class="newsletter-note" id="newsletter-note" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col footer-brand">
+      <a href="#top" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="6" width="48" height="48" rx="10" fill="currentColor"/>
+          <text x="30" y="41" font-family="Fraunces, Georgia, serif" font-size="30" font-weight="600" fill="#F6F1E7" text-anchor="middle">S</text>
+        </svg>
+        </span>
+        <span class="logo-text">Sitio Café</span>
+      </a>
+      <p>A neighbourhood cafe serving artisan coffee and homemade food with a whole lot of heart.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-9h3l1-4h-4V7c0-1 .3-1.7 1.7-1.7H17V2h-3c-3 0-4.3 1.6-4.3 4v3H7v4h2.7v9h3.3Z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter / X">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4l7.5 9.3L4.3 20H6l6.2-6L17 20h4l-7.8-9.7L20 4h-1.8l-5.6 5.4L8 4H4Z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Location &amp; Hours</h4>
+      <p><strong>Visit Us</strong><br>1 Placeholder Street<br>Your City, AB1 2CD</p>
+      <p><strong>Store Hours</strong><br>
+        Mon to Fri: 7:30am to 5:30pm<br>
+        Sat: 7:30am to 6:00pm<br>
+        Sun: 8:00am to 6:00pm
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>More Information</h4>
+      <ul class="footer-links">
+        <li><a href="#menu">Our Menu</a></li>
+        <li><a href="gift-vouchers.html">Gift Vouchers</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Get in Touch</h4>
+      <ul class="footer-links">
+        <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+        <li><a href="tel:+10000000000">+1 (000) 000-0000</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Sitio Café. This is a template site for demonstration purposes only.</p>
+  </div>
+</footer>
+
+<a href="#top" class="to-top" id="to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

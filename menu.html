@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Full Menu: Sitio Café</title>
+<meta name="description" content="The full menu at Sitio Café: coffee, brunch, lunch and homemade bakes." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,450&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ ANNOUNCEMENT BAR ============ -->
+<div class="announce">
+  <p>This is an example cafe website template. Every name, address and detail below is a placeholder</p>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="index.html#top" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="6" width="48" height="48" rx="10" fill="currentColor"/>
+          <text x="30" y="41" font-family="Fraunces, Georgia, serif" font-size="30" font-weight="600" fill="#F6F1E7" text-anchor="middle">S</text>
+        </svg>
+      </span>
+      <span class="logo-text">Sitio Café</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html#story">Our Story</a>
+      <a href="menu.html">Menu</a>
+      <a href="index.html#visit">Visit</a>
+      <a href="index.html#values">Community</a>
+      <a href="index.html#reviews">Reviews</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="index.html#visit" class="btn btn-outline header-cta">Order Ahead</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ MENU PAGE HERO ============ -->
+  <section class="menu-page-hero">
+    <a href="index.html#top" class="back-link">← Back to home</a>
+    <p class="eyebrow">The Full Menu</p>
+    <h1>Everything on the counter</h1>
+    <p>Coffee, brunch, lunch and bakes, made fresh in-house every day. Prices and availability can vary slightly by season.</p>
+  </section>
+
+  <!-- ============ FULL MENU ============ -->
+  <section class="full-menu">
+
+    <!-- Coffee & Drinks -->
+    <div class="menu-category" id="coffee">
+      <div class="menu-category-head">
+        <h2>Coffee &amp; Drinks</h2>
+        <p>Beans roasted for us, ground and pulled fresh for every order.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-media coffee" aria-hidden="true"></div>
+          <span class="menu-tag">Coffee</span>
+          <h3>House Espresso</h3>
+          <p>Rich, balanced and roasted for us, pulled as a flat white, cortado or straight up.</p>
+          <span class="menu-price">£3.60</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media cake" aria-hidden="true"></div>
+          <span class="menu-tag">Coffee</span>
+          <h3>Flat White</h3>
+          <p>Double shot, steamed milk, a thin layer of velvety micro-foam.</p>
+          <span class="menu-price">£3.80</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media toastie" aria-hidden="true"></div>
+          <span class="menu-tag">Coffee</span>
+          <h3>Pour Over, Single Origin</h3>
+          <p>A rotating guest bean, brewed by the cup and talked through by whoever's behind the counter.</p>
+          <span class="menu-price">£4.20</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media granola" aria-hidden="true"></div>
+          <span class="menu-tag">Drinks</span>
+          <h3>Chai Latte</h3>
+          <p>House-spiced chai concentrate, steamed with your milk of choice.</p>
+          <span class="menu-price">£3.90</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media juice" aria-hidden="true"></div>
+          <span class="menu-tag">Drinks</span>
+          <h3>Fresh Orange Juice</h3>
+          <p>Squeezed to order, nothing added, just oranges.</p>
+          <span class="menu-price">£3.80</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media eggs" aria-hidden="true"></div>
+          <span class="menu-tag">Drinks</span>
+          <h3>Iced Matcha Latte</h3>
+          <p>Ceremonial-grade matcha, whisked and poured over oat milk and ice.</p>
+          <span class="menu-price">£4.10</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brunch -->
+    <div class="menu-category" id="brunch">
+      <div class="menu-category-head">
+        <h2>Brunch</h2>
+        <p>Served all day, every day, no cut-off time here.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-media eggs" aria-hidden="true"></div>
+          <span class="menu-tag">Brunch</span>
+          <h3>Soft Boiled Eggs &amp; Soldiers</h3>
+          <p>Two eggs, buttered toast fingers, and a little flaky salt on the side.</p>
+          <span class="menu-price">£6.90</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media granola" aria-hidden="true"></div>
+          <span class="menu-tag">Brunch</span>
+          <h3>Homemade Granola &amp; Yoghurt</h3>
+          <p>Slow-roasted oats, seeds and honey, layered with thick yoghurt.</p>
+          <span class="menu-price">£6.20</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media toastie" aria-hidden="true"></div>
+          <span class="menu-tag">Brunch</span>
+          <h3>Smashed Avocado on Sourdough</h3>
+          <p>Chilli flakes, lemon and olive oil, on our thick-cut sourdough. Add an egg for £1.50.</p>
+          <span class="menu-price">£8.50</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media cake" aria-hidden="true"></div>
+          <span class="menu-tag">Brunch</span>
+          <h3>Buttermilk Pancakes</h3>
+          <p>Stacked three high with maple syrup and cultured butter.</p>
+          <span class="menu-price">£7.90</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media coffee" aria-hidden="true"></div>
+          <span class="menu-tag">Brunch</span>
+          <h3>Shakshuka</h3>
+          <p>Eggs baked in a smoky tomato and pepper sauce, served with grilled flatbread.</p>
+          <span class="menu-price">£8.90</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lunch -->
+    <div class="menu-category" id="lunch">
+      <div class="menu-category-head">
+        <h2>Lunch</h2>
+        <p>From midday, sandwiches made to order, soup that changes with the seasons.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-media toastie" aria-hidden="true"></div>
+          <span class="menu-tag">Lunch</span>
+          <h3>Roast Vegetable Toastie</h3>
+          <p>Griddled sourdough, melted cheese and slow-roasted seasonal vegetables.</p>
+          <span class="menu-price">£7.50</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media juice" aria-hidden="true"></div>
+          <span class="menu-tag">Lunch</span>
+          <h3>Soup of the Day</h3>
+          <p>Ask what's on today, always served with a slice of sourdough.</p>
+          <span class="menu-price">£6.50</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media granola" aria-hidden="true"></div>
+          <span class="menu-tag">Lunch</span>
+          <h3>Chicken &amp; Pesto Ciabatta</h3>
+          <p>Roast chicken, basil pesto, rocket and sun-dried tomato.</p>
+          <span class="menu-price">£8.20</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media eggs" aria-hidden="true"></div>
+          <span class="menu-tag">Lunch</span>
+          <h3>Halloumi &amp; Fig Salad</h3>
+          <p>Grilled halloumi, fresh figs, rocket and a honey-mustard dressing.</p>
+          <span class="menu-price">£8.90</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bakes -->
+    <div class="menu-category" id="bakes">
+      <div class="menu-category-head">
+        <h2>Bakes &amp; Sweets</h2>
+        <p>Baked fresh on site each morning, once they're gone, they're gone.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-media cake" aria-hidden="true"></div>
+          <span class="menu-tag">Bakes</span>
+          <h3>Banana Chocolate Chip Loaf</h3>
+          <p>A moist, generous slice, baked fresh each morning on site.</p>
+          <span class="menu-price">£4.20</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media coffee" aria-hidden="true"></div>
+          <span class="menu-tag">Bakes</span>
+          <h3>Almond Croissant</h3>
+          <p>Twice-baked, filled with almond cream and finished with flaked almonds.</p>
+          <span class="menu-price">£3.90</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media toastie" aria-hidden="true"></div>
+          <span class="menu-tag">Bakes</span>
+          <h3>Sticky Ginger Cake</h3>
+          <p>Dark, spiced and treacly, served with a swipe of mascarpone.</p>
+          <span class="menu-price">£4.10</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-media juice" aria-hidden="true"></div>
+          <span class="menu-tag">Bakes</span>
+          <h3>Cinnamon Bun</h3>
+          <p>Laminated dough, brown sugar swirl, cream cheese icing.</p>
+          <span class="menu-price">£3.70</span>
+        </div>
+      </div>
+    </div>
+
+    <p class="menu-note">Please let us know about any allergies or dietary requirements before ordering, a full allergen list is available at the counter. Prices include VAT.</p>
+
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col footer-brand">
+      <a href="index.html#top" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="6" width="48" height="48" rx="10" fill="currentColor"/>
+          <text x="30" y="41" font-family="Fraunces, Georgia, serif" font-size="30" font-weight="600" fill="#F6F1E7" text-anchor="middle">S</text>
+        </svg>
+        </span>
+        <span class="logo-text">Sitio Café</span>
+      </a>
+      <p>A neighbourhood cafe serving artisan coffee and homemade food with a whole lot of heart.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-9h3l1-4h-4V7c0-1 .3-1.7 1.7-1.7H17V2h-3c-3 0-4.3 1.6-4.3 4v3H7v4h2.7v9h3.3Z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter / X">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4l7.5 9.3L4.3 20H6l6.2-6L17 20h4l-7.8-9.7L20 4h-1.8l-5.6 5.4L8 4H4Z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Location &amp; Hours</h4>
+      <p><strong>Visit Us</strong><br>1 Placeholder Street<br>Your City, AB1 2CD</p>
+      <p><strong>Store Hours</strong><br>
+        Mon to Fri: 7:30am to 5:30pm<br>
+        Sat: 7:30am to 6:00pm<br>
+        Sun: 8:00am to 6:00pm
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>More Information</h4>
+      <ul class="footer-links">
+        <li><a href="menu.html">Our Menu</a></li>
+        <li><a href="gift-vouchers.html">Gift Vouchers</a></li>
+        <li><a href="index.html#story">Our Story</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Get in Touch</h4>
+      <ul class="footer-links">
+        <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+        <li><a href="tel:+10000000000">+1 (000) 000-0000</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Sitio Café. This is a template site for demonstration purposes only.</p>
+  </div>
+</footer>
+
+<a href="#top" class="to-top" id="to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "your-cafe-name-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example static cafe website template, ready to deploy to Vercel.",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  }
+}
